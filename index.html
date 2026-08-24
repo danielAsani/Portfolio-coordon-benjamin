@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>EL-Manager | Portfolio</title>
+  <meta name="description" content="Portfolio editorial de EL-Manager, manager passionne par la strategie, le leadership et la coordination d'equipes.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header" data-header>
+    <div class="site-header__shell">
+      <svg class="site-header__shape" viewBox="0 0 1050 74" preserveAspectRatio="none" aria-hidden="true" focusable="false">
+        <path d="M29 1H1021C1036.5 1 1049 13.5 1049 29V41C1049 56.5 1036.5 69 1021 69H675C635 69 615 38 580 31C545 24 505 24 470 31C435 38 415 69 375 69H29C13.5 69 1 56.5 1 41V29C1 13.5 13.5 1 29 1Z" />
+      </svg>
+      <a class="header-home" href="#accueil">Accueil</a>
+
+      <a class="brand" href="#accueil" aria-label="Retour a l'accueil">
+        <span class="brand__mark" aria-hidden="true"></span>
+        <span>EL-Manager</span>
+      </a>
+
+      <nav class="site-nav" id="site-nav" data-nav aria-label="Navigation principale">
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <button class="menu-toggle" type="button" data-menu-toggle aria-expanded="false" aria-controls="site-nav">
+        <span></span>
+        <span></span>
+        <span class="sr-only">Ouvrir le menu</span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section" id="accueil" aria-labelledby="hero-title">
+      <div class="hero__arc" aria-hidden="true"></div>
+      <div class="hero__inner container">
+        <div class="hero__intro reveal">
+          <h1 id="hero-title">I'm EL-Manager</h1>
+          <p>
+            Manager passionne par la strategie et la coordination, je transforme les idees en actions
+            concretes avec une approche claire, humaine et orientee resultats.
+          </p>
+          <div class="hero__actions">
+            <a class="hero__cta" href="#contact">Contact</a>
+          </div>
+        </div>
+
+        <figure class="hero__portrait reveal">
+          <img src="assets/hero-transparent.svg" alt="EL-Manager en costume bleu, portrait professionnel detoure">
+        </figure>
+
+        <article class="hero__skills reveal">
+          <p class="hero__statement">Le meilleur manager d'Afrique</p>
+        </article>
+
+      </div>
+    </section>
+
+    <section class="signature-strip" aria-label="Signature de travail">
+      <div class="signature-strip__inner container">
+        <p>
+          <span>Portfolio</span>
+        </p>
+        <div class="signature-strip__items" aria-label="Axes et references">
+          <span class="signature-strip__mark signature-strip__mark--pmp">
+            <span>PMP</span>
+            <img src="assets/pmp-mark.svg" alt="" aria-hidden="true">
+          </span>
+          <span class="signature-strip__mark signature-strip__mark--mayele">
+            <img src="assets/mayele-plus.svg" alt="Mayele Plus">
+          </span>
+          <span>Management</span>
+          <span>Leadership</span>
+          <span>Innovation</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="presentation-strip section" id="presentation" aria-labelledby="presentation-title">
+      <div class="presentation-strip__inner container reveal">
+        <div class="presentation-strip__copy">
+          <h2 id="presentation-title"><span>Presentation</span></h2>
+          <p>
+            Manager passionne par la strategie, la coordination et l'execution, j'aide les idees a devenir
+            des actions claires, suivies et utiles. Mon approche repose sur l'ecoute, l'organisation et la
+            capacite a garder une equipe alignee autour d'objectifs concrets.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="contact">
+    <div class="container site-footer__inner">
+      <p class="site-footer__brand">EL-Manager</p>
+      <p>Management &bull; Leadership &bull; Strategy &bull; Innovation</p>
+      <nav aria-label="Liens de contact">
+        <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a>
+        <a href="mailto:contact@el-manager.com">Email</a>
+        <a href="#accueil">Retour en haut</a>
+      </nav>
+      <small>&copy; 2026 EL-Manager</small>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
