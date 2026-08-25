@@ -13,9 +13,6 @@
 <body>
   <header class="site-header" data-header>
     <div class="site-header__shell">
-      <svg class="site-header__shape" viewBox="0 0 1050 74" preserveAspectRatio="none" aria-hidden="true" focusable="false">
-        <path d="M29 1H1021C1036.5 1 1049 13.5 1049 29V41C1049 56.5 1036.5 69 1021 69H675C635 69 615 38 580 31C545 24 505 24 470 31C435 38 415 69 375 69H29C13.5 69 1 56.5 1 41V29C1 13.5 13.5 1 29 1Z" />
-      </svg>
       <a class="header-home" href="#accueil">Accueil</a>
 
       <a class="brand" href="#accueil" aria-label="Retour a l'accueil">
@@ -46,7 +43,7 @@
             concretes avec une approche claire, humaine et orientee resultats.
           </p>
           <div class="hero__actions">
-            <a class="hero__cta" href="#contact">Contact</a>
+            <a class="hero__cta" href="#contact" data-contact-open>Prendre contact</a>
           </div>
         </div>
 
@@ -81,15 +78,332 @@
       </div>
     </section>
 
-    <section class="presentation-strip section" id="presentation" aria-labelledby="presentation-title">
+    <section class="portfolio-sections section" aria-label="Portfolio detaille">
+      <div class="portfolio-sections__inner container">
+        <section class="achievements-block reveal" id="projet" aria-labelledby="achievements-title">
+          <div class="achievements-block__header">
+            <h2 id="achievements-title">Mes realisations</h2>
+          </div>
+
+          <div class="achievements-block__grid">
+            <article class="achievement-card achievement-card--featured">
+              <figure>
+                <img src="assets/realisation-coordination.png" alt="Reunion de coordination et suivi des actions terrain">
+              </figure>
+              <p class="achievement-card__category">Projet pilote</p>
+              <h3>Coordination PMP et suivi des actions terrain.</h3>
+              <p>
+                Organisation des priorites, mise en place d'un rythme de travail clair et suivi des
+                actions pour garder l'equipe concentree sur les resultats.
+              </p>
+              <span>Management / Execution</span>
+              <a class="achievement-card__button" href="#contact">Voir la realisation</a>
+            </article>
+
+            <div class="achievement-list" aria-label="Autres realisations">
+              <article class="achievement-list__item">
+                <figure>
+                  <img src="assets/realisation-marque.png" alt="Atelier de structuration d'une presence de marque">
+                </figure>
+                <div>
+                  <p>Mayele Plus</p>
+                  <h3>Structuration d'une presence de marque plus claire.</h3>
+                  <span>Strategie / Image</span>
+                  <a class="achievement-list__link" href="#contact">Voir</a>
+                </div>
+              </article>
+              <article class="achievement-list__item">
+                <figure>
+                  <img src="assets/realisation-equipe.png" alt="Equipe alignee autour d'un plan d'action">
+                </figure>
+                <div>
+                  <p>Pilotage</p>
+                  <h3>Alignement d'equipe autour d'objectifs concrets.</h3>
+                  <span>Equipe / Methode</span>
+                  <a class="achievement-list__link" href="#contact">Voir</a>
+                </div>
+              </article>
+              <article class="achievement-list__item">
+                <figure>
+                  <img src="assets/realisation-leadership.png" alt="Clarification des roles et du rythme d'execution">
+                </figure>
+                <div>
+                  <p>Leadership</p>
+                  <h3>Clarification des roles et du rythme d'execution.</h3>
+                  <span>Organisation / Suivi</span>
+                  <a class="achievement-list__link" href="#contact">Voir</a>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="section-actions section-actions--bottom" aria-label="Actions realisations">
+            <span class="content-count"><strong>04</strong> realisations</span>
+            <a class="section-more" href="#contact">Voir plus</a>
+          </div>
+        </section>
+
+        <section class="certificate-focus reveal" id="certificat" aria-labelledby="certificate-title">
+          <div class="certificate-focus__layout">
+            <div class="certificate-focus__header">
+              <p class="certificate-focus__kicker">Certification</p>
+              <h2 id="certificate-title">Un certificat qui renforce une pratique de management claire</h2>
+              <p class="certificate-focus__text">
+                Une preuve de progression continue, construite autour de la methode, du leadership
+                operationnel et de la capacite a transformer l'apprentissage en resultats.
+              </p>
+            </div>
+
+            <div class="certificate-focus__showcase">
+              <div class="certificate-focus__side certificate-focus__side--left">
+                <article class="certificate-feature">
+                  <span class="certificate-feature__icon certificate-feature__icon--panel" aria-hidden="true"></span>
+                  <h3>Methode de travail</h3>
+                  <p>Structurer les priorites pour avancer avec ordre, clarte et discipline.</p>
+                </article>
+                <article class="certificate-feature">
+                  <span class="certificate-feature__icon certificate-feature__icon--light" aria-hidden="true"></span>
+                  <h3>Vision claire</h3>
+                  <p>Garder une direction simple et comprehensible pour chaque membre de l'equipe.</p>
+                </article>
+              </div>
+
+              <figure class="certificate-focus__visual">
+                <img src="assets/certificat.png" alt="Apercu d'un certificat professionnel">
+              </figure>
+
+              <div class="certificate-focus__side certificate-focus__side--right">
+                <article class="certificate-feature">
+                  <span class="certificate-feature__icon certificate-feature__icon--flow" aria-hidden="true"></span>
+                  <h3>Leadership utile</h3>
+                  <p>Coordonner les efforts, fluidifier les echanges et renforcer la responsabilite.</p>
+                </article>
+                <article class="certificate-feature">
+                  <span class="certificate-feature__icon certificate-feature__icon--system" aria-hidden="true"></span>
+                  <h3>Culture resultat</h3>
+                  <p>Relier l'apprentissage aux actions concretes et aux objectifs mesurables.</p>
+                </article>
+              </div>
+            </div>
+          </div>
+          <div class="certificate-focus__meta section-actions section-actions--bottom" aria-label="Informations certificat">
+            <span class="content-count"><strong>01</strong> certificat</span>
+            <a class="section-more" href="#contact">Voir plus</a>
+          </div>
+        </section>
+
+        <section class="publication-feature reveal" id="publication" aria-labelledby="publication-title">
+          <div class="publication-feature__top">
+            <p class="publication-feature__kicker">Publication</p>
+          </div>
+          <div class="publication-feature__card">
+            <figure class="publication-feature__media">
+              <img src="assets/rdc-map-transparent.png" alt="Illustration de la RDC pour une publication a la une">
+            </figure>
+
+            <div class="publication-feature__content">
+              <span class="publication-feature__badge">A la une</span>
+              <h2 id="publication-title">Le statut professionnel de la RDC</h2>
+              <p>
+                Une publication pour analyser les defis, les opportunites et les leviers qui renforcent
+                le leadership et la performance professionnelle en RDC.
+              </p>
+              <a class="publication-feature__button" href="#contact">Voir la publication</a>
+              <div class="publication-feature__author">
+                <img src="assets/hero-transparent.svg" alt="">
+                <div>
+                  <strong>EL-Manager <span class="publication-feature__verified" aria-label="Certification verifiee"></span></strong>
+                  <span>Manager & Strategie</span>
+                </div>
+              </div>
+            </div>
+
+            <aside class="publication-feature__engagement" aria-label="Engagement de la publication">
+              <div class="publication-reactions">
+                <div class="publication-like" aria-hidden="true">
+                  <span>
+                    <svg viewBox="0 0 24 24" focusable="false">
+                      <path d="M7 21H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3v11Zm2 0V10.8l4.6-7.1c.5-.8 1.8-.5 1.9.5l.2 1.5c.1.9-.1 1.8-.5 2.6l-.7 1.2H20a2 2 0 0 1 1.9 2.5l-1.7 6.6A3 3 0 0 1 17.3 21H9Z" />
+                    </svg>
+                  </span>
+                </div>
+                <div class="publication-metric">
+                  <strong>1.2K</strong>
+                  <p>Reactions</p>
+                </div>
+                <div class="publication-metric">
+                  <strong>12.4K</strong>
+                  <p>Vues</p>
+                </div>
+              </div>
+
+              <div class="publication-comments">
+                <div class="publication-comments__header">
+                  <strong>86</strong>
+                  <span>Commentaires</span>
+                </div>
+                <div class="publication-comment">
+                  <span class="publication-comment__avatar publication-comment__avatar--purple">P</span>
+                  <p>
+                    <span><strong>Patrick M.</strong><time>14 min</time></span>
+                    Une analyse pertinente et tres actuelle.
+                  </p>
+                </div>
+                <div class="publication-comment">
+                  <span class="publication-comment__avatar publication-comment__avatar--yellow">S</span>
+                  <p>
+                    <span><strong>Sarah K.</strong><time>28 min</time></span>
+                    Merci pour cette vision claire des enjeux du pays.
+                  </p>
+                </div>
+                <div class="publication-comment">
+                  <span class="publication-comment__avatar publication-comment__avatar--green">J</span>
+                  <p>
+                    <span><strong>Josue L.</strong><time>1h</time></span>
+                    Tres inspirant ! Hate de voir les solutions proposees.
+                  </p>
+                </div>
+                <a href="#contact">Voir tous les commentaires</a>
+              </div>
+            </aside>
+
+            <div class="publication-feature__footer">
+              <span>12.4K vues</span>
+            </div>
+          </div>
+
+          <div class="publication-feature__more" aria-label="Autres publications">
+            <span>Autres publications</span>
+            <a href="#contact">Leadership terrain</a>
+            <a href="#contact">Organisation d'equipe</a>
+          </div>
+          <div class="section-actions section-actions--bottom" aria-label="Actions publications">
+            <span class="content-count"><strong>03</strong> publications</span>
+            <a class="section-more" href="#contact">Voir plus</a>
+          </div>
+        </section>
+
+      </div>
+    </section>
+
+    <section class="presentation-strip section" id="presentation" aria-label="Valeurs de management">
       <div class="presentation-strip__inner container reveal">
         <div class="presentation-strip__copy">
-          <h2 id="presentation-title"><span>Presentation</span></h2>
-          <p>
-            Manager passionne par la strategie, la coordination et l'execution, j'aide les idees a devenir
-            des actions claires, suivies et utiles. Mon approche repose sur l'ecoute, l'organisation et la
-            capacite a garder une equipe alignee autour d'objectifs concrets.
-          </p>
+          <div class="presentation-values" aria-label="Valeurs de management">
+            <article>
+              <span>01.</span>
+              <h3>Vision claire</h3>
+              <p>Donner une direction simple, lisible et comprise par toute l'equipe.</p>
+            </article>
+            <article>
+              <span>02.</span>
+              <h3>Execution suivie</h3>
+              <p>Transformer les priorites en actions concretes, mesurees et regulieres.</p>
+            </article>
+            <article>
+              <span>03.</span>
+              <h3>Equipe alignee</h3>
+              <p>Creer un cadre de travail ou chacun sait quoi faire, pourquoi et quand.</p>
+            </article>
+            <article>
+              <span>04.</span>
+              <h3>Impact utile</h3>
+              <p>Avancer avec des resultats visibles, durables et connectes aux objectifs.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats-strip section" aria-label="Statistiques">
+      <div class="stats-strip__inner container reveal">
+        <div class="stats-strip__grid">
+          <article>
+            <span>03</span>
+            <h3>Realisations</h3>
+          </article>
+          <article>
+            <span>01</span>
+            <h3>Certificat</h3>
+          </article>
+          <article>
+            <span>12.4K</span>
+            <h3>Vues</h3>
+          </article>
+          <article>
+            <span>1.2K</span>
+            <h3>Reactions</h3>
+          </article>
+          <article>
+            <span>86</span>
+            <h3>Commentaires</h3>
+          </article>
+          <article>
+            <span>04</span>
+            <h3>Valeurs</h3>
+          </article>
+          <article>
+            <span>03</span>
+            <h3>Publications</h3>
+          </article>
+          <article>
+            <span>06</span>
+            <h3>Axes</h3>
+          </article>
+          <article>
+            <span>09</span>
+            <h3>Indicateurs</h3>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="recognition-strip section" aria-label="Temoignages">
+      <div class="recognition-strip__inner container reveal">
+        <div class="recognition-strip__grid">
+          <article class="recognition-card recognition-card--featured">
+            <figure>
+              <img src="assets/testimonial-benjamin.png" alt="Portrait professionnel du temoin principal">
+            </figure>
+            <div>
+              <header>
+                <span>DG de la SNEL</span>
+              </header>
+              <p>
+                Approche claire, structuree et orientee resultat, avec une vraie capacite a aligner
+                les equipes dans l'execution.
+              </p>
+            </div>
+          </article>
+
+          <article class="recognition-card">
+            <figure>
+              <img src="assets/hero-transparent.svg" alt="Portrait professionnel d'un temoin">
+            </figure>
+            <div>
+              <header>
+                <span>Responsable operations</span>
+              </header>
+              <p>
+                Methode simple, suivi regulier et priorites bien traduites pour permettre a l'equipe
+                d'avancer avec confiance.
+              </p>
+            </div>
+          </article>
+
+          <article class="recognition-card">
+            <figure>
+              <img src="assets/hero.svg" alt="Portrait professionnel d'un temoin">
+            </figure>
+            <div>
+              <header>
+                <span>Directeur de projet</span>
+              </header>
+              <p>
+                Profil fiable pour structurer, coordonner et transformer les objectifs en actions
+                concretes, mesurables et utiles.
+              </p>
+            </div>
+          </article>
         </div>
       </div>
     </section>
@@ -97,16 +411,98 @@
 
   <footer class="site-footer" id="contact">
     <div class="container site-footer__inner">
-      <p class="site-footer__brand">EL-Manager</p>
-      <p>Management &bull; Leadership &bull; Strategy &bull; Innovation</p>
-      <nav aria-label="Liens de contact">
-        <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a>
-        <a href="mailto:contact@el-manager.com">Email</a>
-        <a href="#accueil">Retour en haut</a>
-      </nav>
-      <small>&copy; 2026 EL-Manager</small>
+      <div class="site-footer__main">
+        <div class="site-footer__identity">
+          <p class="site-footer__brand">EL-Manager</p>
+          <p class="site-footer__tagline">Management &bull; Leadership &bull; Strategy &bull; Innovation</p>
+        </div>
+
+        <div class="site-footer__actions">
+          <div class="site-footer__group">
+            <p>Navigation</p>
+            <nav class="site-footer__links" aria-label="Liens du portfolio">
+              <a href="#projet">Realisations</a>
+              <a href="#certificat">Certificat</a>
+              <a href="#publication">Publication</a>
+              <a href="#accueil">Accueil</a>
+            </nav>
+          </div>
+
+          <div class="site-footer__group">
+            <p>Contact</p>
+            <nav class="site-footer__social" aria-label="Reseaux sociaux">
+              <a class="site-footer__social-link site-footer__social-link--whatsapp" href="https://wa.me/" target="_blank" rel="noreferrer" aria-label="WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2.6a9.2 9.2 0 0 0-7.9 13.9L3 21l4.7-1.1A9.2 9.2 0 1 0 12 2.6Zm0 1.8a7.4 7.4 0 0 1 0 14.8c-1.3 0-2.5-.3-3.6-.9l-.3-.2-2.5.6.6-2.4-.2-.3A7.4 7.4 0 0 1 12 4.4Zm-3.2 3.8c-.2 0-.5.1-.7.3-.3.3-.9.9-.9 2.1s.9 2.4 1 2.6c.1.2 1.8 2.9 4.4 3.9 2.2.9 2.6.5 3.1.5s1.5-.6 1.7-1.2c.2-.6.2-1.1.1-1.2l-.6-.3-1.8-.9c-.2-.1-.4-.1-.6.2l-.8 1c-.1.2-.3.2-.6.1-.3-.2-1.1-.4-2-1.2-.8-.7-1.3-1.5-1.4-1.8-.2-.2 0-.4.1-.5l.4-.5c.1-.2.2-.3.3-.5.1-.2 0-.3 0-.5l-.8-1.9c-.2-.2-.4-.2-.6-.2h-.3Z" /></svg></a>
+              <a class="site-footer__social-link site-footer__social-link--instagram" href="https://www.instagram.com/" target="_blank" rel="noreferrer" aria-label="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M8 3h8a5 5 0 0 1 5 5v8a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5V8a5 5 0 0 1 5-5Zm0 2a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V8a3 3 0 0 0-3-3H8Zm4 3.3A3.7 3.7 0 1 1 12 15.7 3.7 3.7 0 0 1 12 8.3Zm0 2A1.7 1.7 0 1 0 12 13.7 1.7 1.7 0 0 0 12 10.3Zm4.1-2.6a.9.9 0 1 1 0 1.8.9.9 0 0 1 0-1.8Z" /></svg></a>
+              <a class="site-footer__social-link site-footer__social-link--linkedin" href="https://www.linkedin.com/" target="_blank" rel="noreferrer" aria-label="LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5.2 8.8h3.1V19H5.2V8.8ZM6.8 4a1.8 1.8 0 1 1 0 3.6A1.8 1.8 0 0 1 6.8 4Zm3.6 4.8h3v1.4h.1c.4-.8 1.4-1.6 3-1.6 3.2 0 3.8 2.1 3.8 4.8V19h-3.1v-5c0-1.2 0-2.7-1.7-2.7s-1.9 1.3-1.9 2.6V19h-3.1V8.8Z" /></svg></a>
+              <a class="site-footer__social-link site-footer__social-link--email" href="mailto:contact@el-manager.com" aria-label="Email"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 5h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2Zm0 3.2V17h16V8.2l-8 5.1-8-5.1Zm1.3-1.2 6.7 4.3L18.7 7H5.3Z" /></svg></a>
+            </nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="site-footer__bottom">
+        <small>&copy; 2026 Daniel Asani</small>
+        <span>Portfolio professionnel</span>
+      </div>
     </div>
   </footer>
+
+  <div class="contact-modal" data-contact-modal hidden>
+    <div class="contact-modal__overlay" data-contact-close></div>
+    <section class="contact-modal__panel" role="dialog" aria-modal="true" aria-labelledby="contact-modal-title">
+      <button class="contact-modal__close" type="button" data-contact-close aria-label="Fermer le formulaire">
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="contact-modal__header">
+        <p>Contact</p>
+        <h2 id="contact-modal-title">Demander un retour</h2>
+      </div>
+
+      <form class="contact-modal__form" data-contact-form>
+        <fieldset class="contact-modal__choice">
+          <legend>Ou souhaitez-vous recevoir la reponse ?</legend>
+          <label>
+            <input type="radio" name="reply_method" value="whatsapp" data-contact-choice checked>
+            <span>WhatsApp</span>
+          </label>
+          <label>
+            <input type="radio" name="reply_method" value="email" data-contact-choice>
+            <span>Email</span>
+          </label>
+        </fieldset>
+
+        <label class="contact-modal__field">
+          <span>Nom complet</span>
+          <input type="text" name="full_name" autocomplete="name" placeholder="Votre nom complet" required>
+        </label>
+
+        <label class="contact-modal__field">
+          <span data-contact-method-label>Numero WhatsApp</span>
+          <input type="tel" name="contact_value" data-contact-method-input autocomplete="tel" placeholder="+243 ..." required>
+        </label>
+
+        <label class="contact-modal__field">
+          <span>Sujet</span>
+          <input type="text" name="subject" placeholder="Objet de votre demande" required>
+        </label>
+
+        <label class="contact-modal__field contact-modal__field--wide">
+          <span>Message</span>
+          <textarea name="message" rows="5" placeholder="Votre message..." required></textarea>
+        </label>
+
+        <button class="contact-modal__submit" type="submit">Envoyer la demande</button>
+      </form>
+    </section>
+  </div>
+
+  <a class="floating-top" href="#accueil" data-floating-top aria-label="Retour en haut">
+    <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+      <path d="M12 5 5.5 11.5l1.4 1.4L11 8.8V20h2V8.8l4.1 4.1 1.4-1.4L12 5Z" />
+    </svg>
+  </a>
 
   <script src="script.js"></script>
 </body>
